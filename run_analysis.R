@@ -71,7 +71,7 @@ tidy_data <- tidy_data[,-3]
 
 ############ Step 5 FINISHED #########################
 
-# Finally write teh data into a file tidy_dataset.txt
+# Finally write the data from the data frame into a text file names tidy_dataset.txt in the same working directory
 
 write.table(tidy_data, file = "./tidy_dataset.txt", row.names = FALSE)
 
