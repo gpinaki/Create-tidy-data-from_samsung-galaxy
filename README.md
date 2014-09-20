@@ -55,24 +55,34 @@ Following files must exist under the train directory
 ## Workflow
 
 run_analysis.R does the following steps:
+
 1. Read the following files for the train set and load into the data-frames. Rename column names to meaningful names.  
-	* X_train.txt
-	* y_train.txt
-	* subject_train.txt
+  X_train.txt
+  y_train.txt
+  subject_train.txt
+
 2. Read the following files for the train set and load into the data-frames. Rename column names to meaningful names.  
-	* X_test.txt
-	* y_test.txt
-	* subject_test.txt
+   X_test.txt
+   y_test.txt 
+   subject_test.txt
+
 3. Rename the column names of X_train dataset with the second column of the features.txt file
    Rename the column names of X_test dataset with the second column of the features.txt file
+
 4. Horizontally bind the data-frames: X_train,y_train and subject_train
    Horizontally bind the data-frames: X_test,y_test and subject_test
+
 5. Vertically join the train and test data-frames. 
+
 6. Subset the dataset vertically by extracting only the measurements on the mean and standard deviation for each measurement. 
-   We extracted all column names with strings "mean" and "std" inside it. Note that meanFreq also included just in case if   required
+   We extracted all column names with strings "mean" and "std" inside it. Note that meanFreq also included just in case if   required.
+
 7. Use descriptive activity names to name the activities in the data set. To add descriptive activity names, we have merged the act_label data-frame with our combined data frame. 
+
 8. The code then appropriately labels the data set with descriptive variable names. To do that, we have made all variables lower case, removed '-' and '()' as per variable naming standards for a tidy data set.
+
 9. From the data set in previous step, the script creates a second, independent tidy data set with the average of each variable for each activity and each subject using the aggregate() function. 
+
 10. The script finally writes the data-frame using write.table() in a text file named tidy_dataset.txt in the same working directory.
 
 ## Execution
