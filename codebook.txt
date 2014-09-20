@@ -1,12 +1,12 @@
-CodeBook
+CodeBook for tidy_dataset.txt 
 
-In the tidy data set there is one row per distinct combination of subject and activity level. See below teh field details:
+In the datafile tidy_dataset.txt there is one row per distinct combination of the subject and activity level. See below the field details:
 
 subject - The name of the subject who performed the step is converted into an ID number (Unique)
 activity - The activity is transformed into a Factor, activity: (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
-(Each of the following variables in the data file is averaged for each distinct combination of subject and activity.)
-
+    (Each of the following variables in the data file is averaged for each distinct combination of the subject and activity.)
+  
 tbodyaccmeanx - mean of the time of body accelerometer reading in X axis
 tbodyaccmeany - mean of the time of body accelerometer reading in Y axis
 tbodyaccmeanz - mean of the time of body accelerometer reading in Z axis
@@ -149,4 +149,3 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
-The complete list of variables of each feature vector is available in 'features.txt'
