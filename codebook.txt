@@ -1,0 +1,152 @@
+CodeBook
+
+In the tidy data set there is one row per distinct combination of subject and activity level. See below teh field details:
+
+subject - The name of the subject who performed the step is converted into an ID number (Unique)
+activity - The activity is transformed into a Factor, activity: (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
+(Each of the following variables in the data file is averaged for each distinct combination of subject and activity.)
+
+tbodyaccmeanx - mean of the time of body accelerometer reading in X axis
+tbodyaccmeany - mean of the time of body accelerometer reading in Y axis
+tbodyaccmeanz - mean of the time of body accelerometer reading in Z axis
+tgravityaccmeanx - mean of the time of gravity accelerometer reading in X axis
+tgravityaccmeany - mean of the time of gravity accelerometer reading in Y axis
+tgravityaccmeanz - mean of the time of gravity accelerometer reading in Z axis
+tbodyaccjerkmeanx - mean of the time of body accelerometer jerk signal reading in X axis
+tbodyaccjerkmeany - mean of the time of body accelerometer jerk signal reading in Y axis
+tbodyaccjerkmeanz - mean of the time of body accelerometer jerk signal reading in Z axis
+tbodygyromeanx - mean of the time of body gyroscope reading in X axis
+tbodygyromeany - mean of the time of body gyroscope reading in Y axis
+tbodygyromeanz - mean of the time of body gyroscope reading in Z axis
+tbodygyrojerkmeanx - mean of the time of body gyroscope jerk signal reading in X axis
+tbodygyrojerkmeany - mean of the time of body gyroscope jerk signal reading in Y axis
+tbodygyrojerkmeanz - mean of the time of body gyroscope jerk signal reading in Z axis
+tbodyaccmagmean - mean of the magnitude of these three-dimensional body accelerometer signals were calculated using the Euclidean norm 
+tgravityaccmagmean - mean of the magnitude of these three-dimensional gravity accelerometer signals were calculated using the Euclidean norm 
+tbodyaccjerkmagmean - mean of the magnitude of these three-dimensional body accelerometer jerk signals were calculated using the Euclidean norm 
+tbodygyromagmean - mean of the magnitude of these three-dimensional gyroscope signals were calculated using the Euclidean norm 
+tbodygyrojerkmagmean - mean of the magnitude of these three-dimensional gyroscope jerk signals were calculated using the Euclidean norm 
+fbodyaccmeanx - mean of the Fast Fourier Transform (FFT) of body accelerometer reading in X axis
+fbodyaccmeany - mean of the Fast Fourier Transform (FFT) of body accelerometer reading in y axis
+fbodyaccmeanz - mean of the Fast Fourier Transform (FFT) of body accelerometer reading in z axis
+fbodyaccmeanfreqx - mean of the Fast Fourier Transform (FFT) of body accelerometer mean frequency reading in X axis
+fbodyaccmeanfreqy - mean of the Fast Fourier Transform (FFT) of body accelerometer mean frequency reading in y axis
+fbodyaccmeanfreqz - mean of the Fast Fourier Transform (FFT) of body accelerometer mean frequency reading in z axis
+fbodyaccjerkmeanx - mean of the Fast Fourier Transform (FFT) of body accelerometer jerk reading in X axis
+fbodyaccjerkmeany - mean of the Fast Fourier Transform (FFT) of body accelerometer jerk reading in y axis
+fbodyaccjerkmeanz - mean of the Fast Fourier Transform (FFT) of body accelerometer jerk reading in z axis
+fbodyaccjerkmeanfreqx - mean of the Fast Fourier Transform (FFT) of body accelerometer jerk mean frequency reading in X axis
+fbodyaccjerkmeanfreqy - mean of the Fast Fourier Transform (FFT) of body accelerometer jerk mean frequency reading in y axis
+fbodyaccjerkmeanfreqz - mean of the Fast Fourier Transform (FFT) of body accelerometer jerk mean frequency reading in z axis
+fbodygyromeanx - mean of the Fast Fourier Transform (FFT) of gyroscope reading in X axis
+fbodygyromeany - mean of the Fast Fourier Transform (FFT) of gyroscope reading in y axis
+fbodygyromeanz - mean of the Fast Fourier Transform (FFT) of gyroscope reading in z axis
+fbodygyromeanfreqx - mean of the Fast Fourier Transform (FFT) of gyroscope mean frequency reading in X axis
+fbodygyromeanfreqy - mean of the Fast Fourier Transform (FFT) of gyroscope mean frequency reading in y axis
+fbodygyromeanfreqz - mean of the Fast Fourier Transform (FFT) of gyroscope mean frequency reading in z axis
+fbodyaccmagmean - mean of the Fast Fourier Transform (FFT) of the magnitude of these three-dimensional body accelerometer signals were calculated using the Euclidean norm 
+fbodyaccmagmeanfreq mean of the Fast Fourier Transform (FFT) of the magnitude of these three-dimensional body accelerometer mean frequency reading signals were calculated using the Euclidean norm 
+fbodybodyaccjerkmagmean - mean of the Fast Fourier Transform (FFT) of the magnitude of these three-dimensional body accelerometer jerk signals were calculated using the Euclidean norm 
+fbodybodyaccjerkmagmeanfreq - mean of the Fast Fourier Transform (FFT) of the magnitude of these three-dimensional body accelerometer jerk signals mean frequencies were calculated using the Euclidean norm 
+fbodybodygyromagmean - mean of the Fast Fourier Transform (FFT) of the magnitude of these three-dimensional gyroscope signals were calculated using the Euclidean norm 
+fbodybodygyromagmeanfreq - mean of the Fast Fourier Transform (FFT) of the magnitude of these three-dimensional gyroscope frequencies  were calculated using the Euclidean norm 
+fbodybodygyrojerkmagmean - mean of the Fast Fourier Transform (FFT) of the magnitude of these three-dimensional gyroscope jerk signals were calculated using the Euclidean norm 
+fbodybodygyrojerkmagmeanfreq - mean of the Fast Fourier Transform (FFT) of the magnitude of these three-dimensional gyroscope jerk frequencies  were calculated using the Euclidean norm 
+tbodyaccstdx - standard deviations of the time of body accelerometer reading in X axis
+tbodyaccstdy - standard deviations of the time of body accelerometer reading in y axis
+tbodyaccstdz - standard deviations of the time of body accelerometer reading in z axis
+tgravityaccstdx - standard deviations of the time of gravity accelerometer reading in X axis
+tgravityaccstdy - standard deviations of the time of gravity accelerometer reading in y axis
+tgravityaccstdz - standard deviations of the time of gravity accelerometer reading in z axis
+tbodyaccjerkstdx - standard deviations of the time of body accelerometer jerk reading in X axis
+tbodyaccjerkstdy - standard deviations of the time of body accelerometer jerk reading in y axis
+tbodyaccjerkstdz - standard deviations of the time of body accelerometer jerk reading in z axis
+tbodygyrostdx - standard deviations of the time of gyroscope reading in X axis
+tbodygyrostdy - standard deviations of the time of gyroscope reading in y axis
+tbodygyrostdz - standard deviations of the time of gyroscope reading in z axis
+tbodygyrojerkstdx - standard deviations of the time of body gyroscope jerk reading in X axis
+tbodygyrojerkstdy - standard deviations of the time of body gyroscope jerk reading in y axis
+tbodygyrojerkstdz - standard deviations of the time of body gyroscope jerk reading in z axis
+tbodyaccmagstd - standard deviation of the time of the magnitude of these three-dimensional body accelerometer signals were calculated using the Euclidean norm 
+tgravityaccmagstd - standard deviation of the time of the magnitude of these three-dimensional gravity accelerometer signals were calculated using the Euclidean norm 
+tbodyaccjerkmagstd - standard deviation of the time of the magnitude of these three-dimensional  body accelerometer jerk signals were calculated using the Euclidean norm 
+tbodygyromagstd  - standard deviation of the time of the magnitude of these three-dimensional  gyroscope signals were calculated using the Euclidean norm 
+tbodygyrojerkmagstd - standard deviation of the time of the magnitude of these three-dimensional  gyroscope jerk signals were calculated using the Euclidean norm 
+fbodyaccstdx - standard deviations of the Fast Fourier Transform (FFT) of body accelerometer reading in X axis
+fbodyaccstdy - standard deviations of the Fast Fourier Transform (FFT) of body accelerometer reading in y axis
+fbodyaccstdz - standard deviations of the Fast Fourier Transform (FFT) of body accelerometer reading in z axis
+fbodyaccjerkstdx - standard deviations of the Fast Fourier Transform (FFT) of body accelerometer jerk reading in X axis
+fbodyaccjerkstdy - standard deviations of the Fast Fourier Transform (FFT) of body accelerometer jerk reading in y axis
+fbodyaccjerkstdz - standard deviations of the Fast Fourier Transform (FFT) of body accelerometer jerk reading in z axis
+fbodygyrostdx - standard deviations of the Fast Fourier Transform (FFT) of body gyroscope reading in X axis
+fbodygyrostdy - standard deviations of the Fast Fourier Transform (FFT) of body gyroscope reading in y axis
+fbodygyrostdz - standard deviations of the Fast Fourier Transform (FFT) of body gyroscope reading in z axis
+fbodyaccmagstd - standard deviation of the Fast Fourier Transform (FFT) of the magnitude of these three-dimensional body accelerometer signals were calculated using the Euclidean norm 
+fbodybodyaccjerkmagstd - standard deviation of the Fast Fourier Transform (FFT) of the magnitude of these three-dimensional body accelerometer jerk signals were calculated using the Euclidean norm 
+fbodybodygyromagstd - standard deviation of the Fast Fourier Transform (FFT) of the magnitude of these three-dimensional gyroscope signals were calculated using the Euclidean norm 
+fbodybodygyrojerkmagstd - standard deviation of the Fast Fourier Transform (FFT) of the magnitude of these three-dimensional gyroscope jerk signals were calculated using the Euclidean norm 
+
+
+Raw Variable Details:
+=================
+
+The variables selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are: 
+
+mean(): Mean value
+std(): Standard deviation
+mad(): Median absolute deviation 
+max(): Largest value in array
+min(): Smallest value in array
+sma(): Signal magnitude area
+energy(): Energy measure. Sum of the squares divided by the number of values. 
+iqr(): Interquartile range 
+entropy(): Signal entropy
+arCoeff(): Autorregresion coefficients with Burg order equal to 4
+correlation(): correlation coefficient between two signals
+maxInds(): index of the frequency component with largest magnitude
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+skewness(): skewness of the frequency domain signal 
+kurtosis(): kurtosis of the frequency domain signal 
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+angle(): Angle between to vectors.
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
+
+The complete list of variables of each feature vector is available in 'features.txt'
